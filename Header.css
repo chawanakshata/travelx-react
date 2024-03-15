@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar span{
+    color: #4bae4e;
+}
+
+
+
+.navbar-brand {
+    float: left;
+    padding: 14px 20px;
+    color: #ffc107;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+.navbar-links {
+    float: right;
+}
+
+.navbar-links a {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+
+.navbar-links a:hover {
+    background-color: #4caf4fb8;
+}
